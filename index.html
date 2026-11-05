@@ -257,7 +257,7 @@ main{padding:14px;}
 
 <!-- ── Confidentiality banner ─────────────────────────────────── -->
 <div class="conf-banner">
-  &#128274; Confidential — All data is illustrative and directionally representative. No proprietary Walmart data is disclosed.
+  &#128274; Confidential — All data is illustrative and directionally representative. No proprietary retailer data is disclosed.
 </div>
 
 <!-- ── Demo banner ───────────────────────────────────────────────── -->
@@ -327,7 +327,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
 <div class="page-header">
   <div class="story-badge">&#128203; Story 9 &mdash; The Courage to Do Nothing</div>
   <h1>Policy Impact: Test &amp; Control</h1>
-  <p>Federal SNAP eligibility rules changed, affecting 9,293 products across 9 live states. The organization expected significant demand transfer and pushed for repositioning. This dashboard documents how test-control measurement across 7 waves proved demand held flat &mdash; and why the right call was to hold the baseline.</p>
+  <p>Federal benefit-program eligibility rules changed, affecting 9,293 products across 9 live states. The organization expected significant demand transfer and pushed for repositioning. This dashboard documents how test-control measurement across 7 waves proved demand held flat &mdash; and why the right call was to hold the baseline.</p>
 </div>
 
 <!-- ── Tab nav ──────────────────────────────────────────────────── -->
@@ -391,8 +391,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
       </div>
     </div>
     <div class="chart-card">
-      <h3>Benefit-Program Revenue Exposure at Walmart</h3>
-      <div class="chart-sub">SNAP represents 14&ndash;17% of Walmart grocery revenue — the scale that made "do nothing" an uncomfortable but data-driven call.</div>
+      <h3>Benefit-Program Revenue Exposure at a National Retailer</h3>
+      <div class="chart-sub">Benefit-program tender represents 14&ndash;17% of grocery revenue — the scale that made "do nothing" an uncomfortable but data-driven call.</div>
       <div class="chart-wrap" style="height:220px">
         <canvas id="chartExecSnapRevenue"></canvas>
       </div>
@@ -401,7 +401,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
 
   <div class="decision-box">
     <div class="dbx-label">Methodology Note</div>
-    <blockquote>"The recommendation to hold baseline was uncomfortable because SNAP represents 14&ndash;17% of Walmart grocery revenue. But acting without evidence would have created the supply chain disruption we were trying to prevent. The test-control design made the finding undeniable — seven waves, nine states, nine thousand products, all consistent. Pre-defined trigger thresholds were armed and monitored every week. They never fired."</blockquote>
+    <blockquote>"The recommendation to hold baseline was uncomfortable because benefit-program tender represents 14&ndash;17% of grocery revenue. But acting without evidence would have created the supply chain disruption we were trying to prevent. The test-control design made the finding undeniable — seven waves, nine states, nine thousand products, all consistent. Pre-defined trigger thresholds were armed and monitored every week. They never fired."</blockquote>
   </div>
 </div>
 
@@ -429,7 +429,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
     <div class="kpi-card blue">
       <div class="label">Matching Variables</div>
       <div class="value">4</div>
-      <div class="sub">Store format, market, SNAP %, velocity</div>
+      <div class="sub">Store format, market, benefit %, velocity</div>
     </div>
     <div class="kpi-card good">
       <div class="label">Wave Cadence</div>
@@ -477,17 +477,17 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
           <td><span class="badge badge-good">No Signal</span></td>
         </tr>
         <tr>
-          <td><strong>H2 — Category Shift</strong><br><span style="color:var(--muted);font-size:11px">Customers substitute to SNAP-eligible items</span></td>
+          <td><strong>H2 — Category Shift</strong><br><span style="color:var(--muted);font-size:11px">Customers substitute to benefit-eligible items</span></td>
           <td>+8% to +12% demand uplift on eligible alternatives</td>
           <td>Eligible-item demand in same categories, test vs control, same 12-week window</td>
           <td>+0.9% on eligible items — baseline variation, not substitution signal</td>
           <td><span class="badge badge-good">No Signal</span></td>
         </tr>
         <tr>
-          <td><strong>H3 — Tender Switch</strong><br><span style="color:var(--muted);font-size:11px">Customers pay cash/card for items they previously bought with SNAP</span></td>
-          <td>SNAP tender share falls; category demand holds flat</td>
+          <td><strong>H3 — Tender Switch</strong><br><span style="color:var(--muted);font-size:11px">Customers pay cash/card for items they previously bought with benefits</span></td>
+          <td>Benefit tender share falls; category demand holds flat</td>
           <td>Tender-mix reporting on affected categories; total category demand unchanged</td>
-          <td>SNAP tender on affected items &minus;2.1%; category demand flat. Expected behavioral shift, not actionable.</td>
+          <td>Benefit tender on affected items &minus;2.1%; category demand flat. Expected behavioral shift, not actionable.</td>
           <td><span class="badge badge-blue">Expected / Not Actionable</span></td>
         </tr>
       </tbody>
@@ -500,7 +500,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
     <div class="chip-row">
       <div class="chip">Store Format</div>
       <div class="chip">Market Size</div>
-      <div class="chip">SNAP Penetration Rate</div>
+      <div class="chip">Benefit-Program Penetration Rate</div>
       <div class="chip">Baseline Category Velocity</div>
     </div>
   </div>
@@ -516,7 +516,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
     <div class="kpi-card blue">
       <div class="label">Products Affected</div>
       <div class="value">9,293</div>
-      <div class="sub">Newly SNAP-ineligible SKUs</div>
+      <div class="sub">Newly benefit-ineligible SKUs</div>
     </div>
     <div class="kpi-card good">
       <div class="label">Avg Demand Change</div>
@@ -560,7 +560,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
     </div>
     <div class="chart-card">
       <h3>Products by Demand Change Bracket</h3>
-      <div class="chart-sub">87% of products landed within the &plusmn;5% noise band. Tail products show no directional pattern suggesting a systemic SNAP-driven shift.</div>
+      <div class="chart-sub">87% of products landed within the &plusmn;5% noise band. Tail products show no directional pattern suggesting a systemic benefit-driven shift.</div>
       <div class="chart-wrap" style="height:240px">
         <canvas id="chartDemandBrackets"></canvas>
       </div>
@@ -570,7 +570,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
   <div class="chart-grid chart-grid-full">
     <div class="chart-card">
       <h3>Product Volume vs Demand Change &mdash; No Correlation</h3>
-      <div class="chart-sub">High-SNAP-penetration, high-volume products did not show larger demand drops. No relationship between baseline volume and post-change demand delta, which would be expected if SNAP removal drove behavior.</div>
+      <div class="chart-sub">High-benefit-penetration, high-volume products did not show larger demand drops. No relationship between baseline volume and post-change demand delta, which would be expected if benefit removal drove behavior.</div>
       <div class="chart-wrap" style="height:260px">
         <canvas id="chartScatter"></canvas>
       </div>
@@ -629,7 +629,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
     </div>
     <div class="chart-card">
       <h3>H3: Tender Switch</h3>
-      <div class="chart-sub">SNAP tender &minus;2.1% on affected items, but category demand flat. Expected and non-actionable.</div>
+      <div class="chart-sub">Benefit tender &minus;2.1% on affected items, but category demand flat. Expected and non-actionable.</div>
       <div class="chart-wrap" style="height:200px">
         <canvas id="chartH3"></canvas>
       </div>
@@ -692,7 +692,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
 
   <div class="kpi-row">
     <div class="kpi-card warn">
-      <div class="label">SNAP Share of Walmart Grocery</div>
+      <div class="label">Benefit-Program Share of Grocery</div>
       <div class="value">14&ndash;17%</div>
       <div class="sub">Revenue concentration at risk</div>
     </div>
@@ -738,7 +738,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
   <div class="chart-grid chart-grid-full">
     <div class="chart-card">
       <h3>Benefit-Program Revenue Concentration by Grocery Category</h3>
-      <div class="chart-sub">SNAP penetration is highest in fresh and dairy — the categories with the most affected products. This is why the "do nothing" call required data, not instinct.</div>
+      <div class="chart-sub">Benefit penetration is highest in fresh and dairy — the categories with the most affected products. This is why the "do nothing" call required data, not instinct.</div>
       <div class="chart-wrap" style="height:240px">
         <canvas id="chartSnapConcentration"></canvas>
       </div>
@@ -758,7 +758,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&dd.open){dd
 
 <!-- ── Footer ────────────────────────────────────────────────────── -->
 <footer class="page-footer">
-  <span>Built by <strong>Astha Jain</strong> &mdash; Sr. Manager, Demand Forecasting &amp; Analytics, Walmart</span>
+  <span>Built by <strong>Astha Jain</strong> &mdash; Sr. Manager, Demand Forecasting &amp; Analytics</span>
   <span style="margin-left:auto;display:flex;gap:16px;flex-wrap:wrap"> <a href="https://asthaj12.github.io/" target="_blank" rel="noopener">Portfolio Home</a> <a href="https://linkedin.com/in/asthajain12" target="_blank" rel="noopener">LinkedIn ↗</a> <a href="https://github.com/asthaj12" target="_blank" rel="noopener">GitHub ↗</a> <a href="mailto:asthajain.sc@gmail.com">Email</a> </span>
 </footer>
 
@@ -846,12 +846,12 @@ const C = {
   });
 })();
 
-// SNAP Revenue — donut
+// Benefit-program revenue — donut
 (function(){
   new Chart(document.getElementById('chartExecSnapRevenue'), {
     type:'doughnut',
     data:{
-      labels:['SNAP Revenue (est. ~15.5%)','Non-SNAP Grocery Revenue'],
+      labels:['Benefit-Program Revenue (est. ~15.5%)','Non-Benefit Grocery Revenue'],
       datasets:[{
         data:[15.5,84.5],
         backgroundColor:[C.orange,'rgba(99,102,241,.12)'],
@@ -1131,7 +1131,7 @@ const C = {
   new Chart(document.getElementById('chartH3'), {
     type:'bar',
     data:{
-      labels:['SNAP Tender\non Affected Items','Category\nDemand Total'],
+      labels:['Benefit Tender\non Affected Items','Category\nDemand Total'],
       datasets:[{
         data:[-2.1,0.3],
         backgroundColor:['rgba(237,161,0,.7)','rgba(27,175,122,.75)'],
@@ -1275,7 +1275,7 @@ const C = {
   });
 })();
 
-// SNAP concentration by category
+// Benefit-program concentration by category
 (function(){
   const cats=['Grocery\n(Avg)','Dairy','Fresh\nProduce','Frozen','Packaged\nSnacks','Beverages'];
   const pct=[15.5,16,14,12,10,8];
@@ -1284,20 +1284,20 @@ const C = {
     type:'bar',
     data:{
       labels:cats,
-      datasets:[{label:'SNAP Penetration Rate (%)',data:pct,backgroundColor:clr.map(c=>c+'bb'),borderRadius:5}]
+      datasets:[{label:'Benefit-Program Penetration Rate (%)',data:pct,backgroundColor:clr.map(c=>c+'bb'),borderRadius:5}]
     },
     options:{
       responsive:true, maintainAspectRatio:false,
       scales:{
         x:{grid:{display:false}},
-        y:{grid:{color:C.grid},max:22,title:{display:true,text:'SNAP % of Category Revenue (est.)',font:{size:10},color:'#898781'},
+        y:{grid:{color:C.grid},max:22,title:{display:true,text:'Benefit-Program % of Category Revenue (est.)',font:{size:10},color:'#898781'},
           ticks:{callback:v=>v+'%'}}
       },
       plugins:{
         legend:{display:false},
         annotation:{annotations:{
           band:{type:'box',yMin:14,yMax:17,backgroundColor:'rgba(99,102,241,.05)',borderColor:'rgba(99,102,241,.2)',borderWidth:1,
-            label:{display:true,content:'14–17% overall SNAP range',position:'start',color:'rgba(99,102,241,.6)',font:{size:9}}}
+            label:{display:true,content:'14–17% overall benefit-program range',position:'start',color:'rgba(99,102,241,.6)',font:{size:9}}}
         }}
       }
     }
